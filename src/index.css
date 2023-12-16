@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Sergio';
+  src: local("Sergio"), url('./fonts/Sergio/Sergio.ttf') format('truetype');
+  /* Additional font styling properties go here */
+}

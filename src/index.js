@@ -1,13 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import StoreRouter from './pages/StoreRouter';
 import reportWebVitals from './reportWebVitals';
+import './style/navbarMain.css';
+
+// fonts
+
+import './fonts/Sergio/Sergio.ttf';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <StoreRouter/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
