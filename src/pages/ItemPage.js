@@ -121,7 +121,7 @@ return (
     <div className="customer-page-container">
 
     <div className="customer-tab">
-        <h1>Customers List</h1>
+        <h1>Items List</h1>
         <table>
         <thead>
                 <tr>
@@ -150,7 +150,7 @@ return (
     </div>
 
     <div className="customer-tab">
-        <h1>Create New Customer</h1>
+        <h1>Create New Item</h1>
         <label>
         Item Name
         <input
